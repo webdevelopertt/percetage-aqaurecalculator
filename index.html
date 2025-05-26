@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ErTauhid</title>
+  <link rel="stylesheet" href="c.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Root Calculator & Square/Cube</h1>
+    <input type="number" id="numberInput" placeholder="Enter a number" />
+    <div class="buttons">
+     <button onclick="calculate('square')">Square</button>
+      <button onclick="calculate('cube')">Cube</button>
+      <button onclick="calculateRoot('square')">Square Root</button>
+      <button onclick="calculateRoot('cube')">Cube Root</button>
+        <button onclick="clearAll()" style="background-color: #f44336;">DELETE</button>
+
+    </div>
+    <hr />
+
+    <h2>Discount Calculator in precentage</h2>
+    <input type="number" id="costPrice" placeholder="Cost Price [MRP]" />
+    <input type="number" id="discountPercent" placeholder="Discount in (%)" />
+    <div class="buttons">
+    <button onclick="calculateDiscount('Calculate Discount')" style="background-color: #16e96b;">Calculate Discount</button>
+            <button onclick="clearAll()" style="background-color: #f44336;">DELETE</button>
+</div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="c.js"></script>
+  <footer style="background-color:#222; color:#fff; text-align:center; padding:15px 0; position:fixed; bottom:0; width:100%;">
+  &copy; 2025 ErTauhid.in All rights reserved.
+</footer>
+</body>
+</html>
